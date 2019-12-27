@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="TestFramework.dll" fullname="C:/Users/Admin/Downloads/bstu-testing-master/bstu-testing-master/TestFramework/TestFramework/bin/Debug/netcoreapp3.1/TestFramework.dll" testcasecount="1" result="Passed" start-time="2019-12-27 22:27:21Z" end-time="2019-12-27 22:27:59Z" duration="38.136302" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" random-seed="1024427952">
+  <command-line><![CDATA[C:\Users\Admin\Downloads\bstu-testing-master\bstu-testing-master\TestFramework\TestFramework\bin\Debug\netcoreapp3.1\TestFramework.dll /env=qa /browser=chrome]]></command-line>
+  <filter>
+    <test>TestFramework.Test.Tests.UserTests.LoginTest</test>
+  </filter>
+  <test-suite type="Assembly" id="1002" name="TestFramework.dll" fullname="C:/Users/Admin/Downloads/bstu-testing-master/bstu-testing-master/TestFramework/TestFramework/bin/Debug/netcoreapp3.1/TestFramework.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-12-27 22:27:21Z" end-time="2019-12-27 22:27:59Z" duration="38.136302" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.12.0.0" clr-version="3.1.0" os-version="Microsoft Windows 10.0.17763" platform="Win32NT" cwd="C:\Users\Admin\Downloads\bstu-testing-master\bstu-testing-master\TestFramework\TestFramework\bin\Debug\netcoreapp3.1" machine-name="HOME" user="Admin" user-domain="HOME" culture="ru-BY" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="LOAD" value="System.Collections.Generic.List`1[System.String]" />
+      <setting name="WorkDirectory" value="C:\Users\Admin\Downloads\bstu-testing-master\bstu-testing-master\TestFramework\TestFramework\bin\Debug\netcoreapp3.1" />
+      <setting name="NumberOfTestWorkers" value="12" />
+    </settings>
+    <properties>
+      <property name="_PID" value="44784" />
+      <property name="_APPDOMAIN" value="TestFramework" />
+    </properties>
+    <test-suite type="TestSuite" id="1003" name="TestFramework" fullname="TestFramework" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-12-27 22:27:21Z" end-time="2019-12-27 22:27:59Z" duration="38.129782" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <test-suite type="TestSuite" id="1004" name="Test" fullname="TestFramework.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-12-27 22:27:21Z" end-time="2019-12-27 22:27:59Z" duration="38.129526" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-suite type="TestSuite" id="1005" name="Tests" fullname="TestFramework.Test.Tests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-12-27 22:27:21Z" end-time="2019-12-27 22:27:59Z" duration="38.129499" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-suite type="TestFixture" id="1000" name="UserTests" fullname="TestFramework.Test.Tests.UserTests" classname="TestFramework.Test.Tests.UserTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-12-27 22:27:21Z" end-time="2019-12-27 22:27:59Z" duration="38.127566" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <test-case id="1001" name="LoginTest" fullname="TestFramework.Test.Tests.UserTests.LoginTest" methodname="LoginTest" classname="TestFramework.Test.Tests.UserTests" runstate="Runnable" seed="1032013503" result="Passed" start-time="2019-12-27 22:27:21Z" end-time="2019-12-27 22:27:59Z" duration="38.121243" asserts="1" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
