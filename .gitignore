@@ -17,5 +17,7 @@ bld/S
 [Ll]og/
 
 .idea/
+.gitignore
+.gitattributes
 
 packages
