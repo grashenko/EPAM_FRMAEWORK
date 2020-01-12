@@ -42,6 +42,8 @@ namespace TestFramework.Test.Tests
                     .WriteCredentials(user)
                     .GoToProfilePage()
                     .GetLoggedUser();
+
+                throw new System.Exception("Exception!!");
                 Assert.AreEqual(user.Email, userEmail);
             });
         }

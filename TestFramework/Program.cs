@@ -18,7 +18,7 @@ namespace TestFramework
                 .ToDictionary(m => m.Groups[1].Value, m => m.Groups[2].Value);
 
             Settings.Env = cmdArgs["env"] ?? "dev";
-            Settings.Browser = cmdArgs["browser"] ?? "firefox";
+            Settings.Browser = cmdArgs["browser"] ?? "chrome";
             var testRunner = new AutoRun(Assembly.GetExecutingAssembly());
             var tests = new string[] { $"--testlist:{Directory.GetCurrentDirectory()}\\tests.txt" };
             testRunner.Execute(tests);

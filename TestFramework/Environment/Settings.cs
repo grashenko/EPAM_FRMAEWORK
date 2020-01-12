@@ -32,12 +32,18 @@ namespace TestFramework.Environment
             {
                 if (_env == null)
                 {
-                    _env = value switch
+                    switch (value) 
                     {
-                        "dev" => Configurations.DevConfig,
-                        "qa" => Configurations.QAConfig,
-                        _ => Configurations.DevConfig
-                    };
+                        case "dev":
+                            _env = Configurations.DevConfig;
+                            break;
+                        case "qa":
+                            _env = Configurations.QAConfig;
+                            break;
+                        default:
+                            _env = Configurations.DevConfig;
+                            break;
+                    }
                 }
             }
         }
